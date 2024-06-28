@@ -1,0 +1,442 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+
+
+
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+html , body{
+          height: 100;
+          width: 100;
+          scroll-behavior: smooth;
+          font-family: "Nunito", sans-serif;
+}
+
+/* background-color: #D9EDBF; */
+/* background-color: #F7FFE5; */
+
+#outerFrame{
+          background-color: #D9EDBF;
+          height: 100vh;
+          width:100vw ;
+          margin: 10px 10px;
+          border-radius: 20px;
+          display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+#innerFrameOne{
+
+          height: 95%;
+          width: 95%;
+          background-color:#F7FFE5 ;
+          border-radius: 25px;
+          font-size: 13px;
+          /* font-weight: 300; */
+          
+}
+#innerFrameOne > #nav-bar >  h4{
+          font-size: 13px;
+          /* text-transform: uppercase; */
+          /* position: fixed; */
+}
+
+#innerFrameOne > #nav-bar {
+          margin: 10px 20px;
+          display: flex;
+          
+
+}
+
+#innerFrameOne > #nav-bar > #anchortag {
+          color: black;
+          margin-left: 25%;
+          width:450px;
+          height: max-content;
+          background-color: #fff;
+          border-radius: 20px;
+          display:flex;
+          justify-content: space-around;
+          font-size: 12px;
+          /* position: fixed; */
+}
+
+#innerFrameOne > #nav-bar > #anchortag > a{
+          color: #000;
+          text-decoration: none;
+          text-align: center;
+          /* position: fixed; */
+}
+
+#consultation{
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-around;
+    /* position: fixed; */
+}
+
+#consultation > img{
+    height: 20px;
+    width: 20px;
+    /* position: fixed; */
+    
+}
+
+#consultation > a{
+    color: #000;
+    text-decoration: none;
+    margin-right: 30px ;
+    /* position: fixed; */
+}
+
+#consultation > #cons{
+    margin-right: 10px;
+    /* position: fixed; */
+}
+
+#mainBody{
+   margin-top: 140px ;
+margin-left: 400px;
+}
+
+#mainBody > h4{
+    margin-left: 150px;
+    font-size: 13px;
+}
+
+#mainBody > #first{
+    font-size: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#mainBody > #second{
+    font-size: 40px;
+  
+
+}
+
+#firstPagebtns{
+ margin-top: 40px;
+ margin-left: 140px;
+
+}
+
+#firstPagebtns > button{
+    color: #000;
+    background-color: #D9EDBF;
+    border: none;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border-radius: 21px;
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+}
+
+#firstPagebtns > #second{
+    color: #000;
+    background-color: #D9EDBF;
+    font-weight: bolder;
+    margin-left: 10px;
+    
+}
+
+#firstPagebtns > #first{
+    font-weight: bolder;
+}
+
+#firstPagebtns > #first:hover{
+    color: #fff;
+    background-color: black;
+    /* border-color: #000; */
+}
+
+#firstPagebtns > #second:hover{
+    color: #fff;
+    background-color: black;
+
+}
+
+#outerFrame2{
+    background-color: #D9EDBF;
+    height: 100vh;
+    width:100vw ;
+    margin: 10px 10px;
+    border-radius: 20px;
+    display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+}
+
+
+#innerFrameTwo{
+
+    height: 95%;
+    width: 95%;
+    background-color:#F7FFE5 ;
+    border-radius: 25px;
+    /* font-size: 13px; */
+    /* font-weight: 300; */
+    
+}
+
+#innerFrameTwo > p {
+    font-family: "Nunito", sans-serif;
+    font-size: 11px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+#innerFrameTwo > h1{
+    display: flex;
+    justify-content: center ;
+    margin-top: 0px;
+    margin-left: 600px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#innerFrameTwo > #firstcontainer{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+#innerFrameTwo > #firstcontainer > #firstvideo{
+   
+    height: 200px ;
+    width: fit-content;
+    border-radius: 21px;
+}
+
+#innerFrameTwo > #firstcontainer > #secondvideo{
+    height:250px;
+    margin: 2px 20px;
+    width: fit-content;
+    border-radius: 21px;
+}
+
+#innerFrameTwo >  #firstcontainer > #thirdvideo{
+    height: 200px;
+    width: fit-content;
+    border-radius: 21px;
+}
+
+#innerFrameTwo > #texts{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+#innerFrameTwo > #texts >  p{
+    font-family: "Nunito", sans-serif;
+    font-size: 11px;
+}
+
+#outerFrame3{
+    background-color: #D9EDBF;
+    height: 100vh;
+    width:100vw ;
+    margin: 10px 10px;
+    border-radius: 20px;
+    display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+}
+
+
+#innerFrame3{
+
+    height: 95%;
+    width: 95%;
+    background-color:#F7FFE5 ;
+    border-radius: 25px;
+    /* font-size: 13px; */
+    /* font-weight: 300; */
+    
+}
+
+#texts3{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+#para3{
+    margin-left: 1000px;
+}
+#para3 > p{
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+}
+
+#innerFrame3  > #videocontainer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+#innerFrame3  > #videocontainer > video{
+    height: 300px;
+    width: fit-content;
+    border-radius: 21px;
+}
+
+#innerFrame3 > button{
+    color: #D9EDBF;
+    background-color: #000;
+    border: none;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    border-radius: 21px;
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: 450px;
+    font-weight: bolder;
+}
+
+#innerFrame3 > button:hover{
+    color: #000;
+    background-color: #D9EDBF;
+    font-weight: bolder;
+}
+
+#outerFrame4{
+    background-color: #D9EDBF;
+    height: 100vh;
+    width:100vw ;
+    margin: 10px 10px;
+    border-radius: 20px;
+    display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+}
+
+#innerFrame4{
+
+    height: 95%;
+    width: 95%;
+    background-image: url(/assets/7fa9fc_192387d80b2e443485d5972b81ce85e4~mv2.jpg);
+    border-radius: 25px;
+    
+}
+
+#innerFrame4 > h1{
+    color: #fff;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#innerFrame4 > #forthPagebtns{
+    display: flex;
+    margin-left: 450px;
+}
+
+#innerFrame4 > #forthPagebtns > button{
+    color: #000;
+    background-color: #D9EDBF;
+    border: none;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 21px;
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    margin-top: 100px;
+    
+    font-weight: bolder;
+}
+
+#innerFrame4 > #forthPagebtns > button:hover{
+    color: #D9EDBF;
+    background-color: #000;
+    font-weight: bolder;
+}
+
+#innerFrame4 > #forthPagebtns > #second{
+    margin-left: 20px;
+}
+
+#innerFrame4 > #images{
+    display: flex;
+    justify-content: space-around;
+}
+
+#innerFrame4 > #images > #one1 , #two2 , #three3 , #four4{
+    height: 200px;
+    width: fit-content;
+    margin: 20px 20px;
+    border-radius: 21px;
+}
+
+#lastframe{
+    background-color: #D9EDBF;
+    height: 100vh;
+    width:100vw ;
+    margin: 10px 10px;
+    border-radius: 20px;
+    display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+}
+
+#innerFrame5{
+
+    height: 95%;
+    width: 95%;
+    background-color:#F7FFE5 ;
+    border-radius: 25px;
+    font-size: 13px;
+    /* font-weight: 300; */
+    
+}
+
+#innerFrame5 > #box{
+  background-color: #FB6D48;
+  border-radius: 21px;
+    height: 150px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 540px;
+}
+
+#innerFrame5 > #box > p{
+    color: white;
+    /* padding: 10px; */
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+#innerFrame5 > h1{
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    margin-left: 470px;
+}
+
+#innerFrame5 > #feedback{
+    display: flex;
+    
+}
+
+#innerFrame5 > #feedback > #name{
+    background-color: #FB6D48;
+    border-radius: 21px;
+      height: 150px;
+      width: 250px;
+      margin-top: 100px;
+      margin-left: 540px;
+  }
+  

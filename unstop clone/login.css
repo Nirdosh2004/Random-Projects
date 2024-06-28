@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Ephesis&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+*::selection{
+          color: #f8f8f8;
+          background-color: #212125;
+}
+
+a{
+          color: #212125;
+          text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+          color: #212125;
+}
+
+html,body{
+          height: 100%;
+          background-color: #cccaca;
+          width: 100%;
+          font-family: "Poppins", sans-serif;
+          scroll-behavior: smooth;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.box{
+          display: flex;
+          padding: 2vw;
+          /* justify-content: center; */
+          gap: 2vw;
+          margin-top: 3vw;
+          margin-left: 5vw;
+          margin-right: 5vw;
+          border: 1px solid #9a9aae;
+          background-color: #9b9ede;
+          border-radius:  1vw;
+          
+}
+
+.box .left img{
+          height: 80vh;
+          width: 50vw;
+          border-radius: 0 2vw 0 2vw;
+}
+
+.box .right .top .left img{
+          height: 5vh;
+          width: auto;
+}
+
+.box .right .top{
+          display: flex;
+          gap: 1vw;
+          /* justify-content: center; */
+}
+
+.box .right .top .right1 h5{
+          font-size: .9vw;
+          font-weight: 400;
+}
+
+.box .right .top .right1 h2{
+          font-size: 1.2vw;
+          font-weight: 550;
+}
+
+.box .right .google a img{
+          height: 3vh;
+          width: auto;
+}
+
+.box .right .google{
+          margin-top: 5vh;
+          /* margin: 1vw; */
+          /* padding: 1vw; */
+}
+
+.box .right .google:hover{
+          background-color: aqua;
+}
+
+.box .right .google a {
+          display: flex;
+          justify-content: space-between;
+          border: .1px solid #212125;
+          border-radius: .1vw;
+          padding: .5vw;
+          font-size: 1vw;
+          /* font-weight: 440; */
+}
+
+.box .right .or{
+          margin-top: 5vh;
+}
+
+.box .right .or p{
+          font-size: .7vw;
+          opacity: 90%;
+}
+
+.box .right .email{
+          margin-top: 5vh ;
+          padding-left: 2vw;
+          padding-top: 1vw;
+          padding-bottom: 1vw;
+          padding-right: 17.5vw;
+          font-family: "Poppins", sans-serif;
+          border-radius: 1vw;
+          border: .1px solid #b7b7c3;
+}
+
+.box .right .email1{
+          color: blue;
+          font-size: .9vw;
+          font-weight: 550;
+          margin-top: 1vh;
+          margin-left: 1vw;
+}
+
+.box .right .password{
+          margin-top: 5vh ;
+          padding-left: 2vw;
+          padding-top: 1vw;
+          padding-bottom: 1vw;
+          padding-right: 17.5vw;
+          font-family: "Poppins", sans-serif;
+          border-radius: 1vw;
+          border: .1px solid #b7b7c3;
+}
+
+.box .right .password1{
+          color: blue;
+          font-size: .9vw;
+          font-weight: 550;
+          margin-top: 1vh;
+          margin-left: 1vw;
+}
+
+.box .right .log a { 
+          border: 1px solid #d3d3e1;
+          background: #d3d3e1;
+          border-radius: 2vw;
+          display: flex;
+          justify-content: center;
+          padding: 1vw 3vw;
+          margin-top: 3vh;
+          font-size: 1vw;
+          opacity: 90%;
+}
+
+.box .right .log a:hover{
+          background-color: #3a86ff;
+          color: #f8f8f8;
+}
+
+.box .right .forgot{
+          display: flex;
+          border: 1px solid #d3d3e1;
+          justify-content: center;
+          margin-top: 3vh;
+          padding: 1vw 3vw;
+          gap: 1vw;
+          font-size: 1vw;
+          opacity: 90%;
+          border-radius: 2vw;
+}
+
+.box .right .forgot a{
+          font-size: 1vw;
+         
+}
+
+.box .right .forgot:hover{
+          border: 1px solid #3a86ff;
+          color: #f8f8f8;
+}
+
+.box .right .forgot .signup{
+          color: blue;
+}
+
+

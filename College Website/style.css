@@ -1,0 +1,136 @@
+/* general */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+          margin: 0;
+          padding: 0;
+          background-color: #B8EAE0;
+          /* background-image: linear-gradient(#B8EAE); */
+}
+
+body {
+          font-family: "Poppins", sans-serif;
+  }
+
+  html {
+          scroll-behavior: smooth;
+        }
+
+        /* First navigation bar */
+
+.homeMenu{
+          display: flex;
+          justify-content: center;
+}
+
+a{
+          text-align: center;
+          gap: 10rem;
+          color: black;
+          padding: 10px 70px 10px 110px;  
+          text-decoration: none;
+          font-size: 17px;
+}
+
+#loginbtn{
+        margin-top: 10px;
+        text-align: center;
+          /* background-color:#8B7EFF; */
+          background-image: linear-gradient(#8B7EFF , #180B8D);
+         width: 80px;
+         height: 20px;
+          color: white;
+          border: 0.2px solid #8B7EFF;
+          border-radius: 8px;
+         border-color: none;  
+         margin-left: 50px;    
+}
+
+#searchbtn{
+          width: 195px;
+          height: 29px;
+          /* background-color: #EFFEFB; */
+          background-image: linear-gradient(#EFFEFB,#B8EAE0 );
+          color: black;
+         
+          border-radius: 19px;
+        margin-top: 10px;
+        border: 0.5px solid #B8EAE0;
+        /* box-shadow: #002B22; */
+     font-size: 12px;
+}
+
+.collegeName{
+        margin: 80px 0px 20px 40px;
+}
+
+#welcome{
+          font-size: 30px;
+          background: linear-gradient(#002B22 , #342828);
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+}
+ #to{
+          font-size: 20px;
+ }
+#dihe{
+         /* background-image: linear-gradient(#002B22, #FFFFFF); */
+         background: linear-gradient(#002B22 , #a08f8f);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+          font-size: 80px;
+}
+
+#slogan{
+       justify-content: center;
+          font-size: 30px;
+}
+
+.summary{
+          margin: 50px;
+          font-size: 14px;
+        
+}
+
+.homeBottomNav{
+display: flex;
+flex-direction: row;
+margin-top: 90px;
+margin-right: 80px;
+/* margin-left: 60px; */
+/* align-content: center; */
+/* border: 2px solid #B8EAE0; */
+/* border-width: 20px; */
+/* background-color: #002B22; */
+/* background-image: linear-gradient(#EFFEFB,#B8EAE0 );
+border-radius: 18px; */
+
+
+}
+
+.a1{
+        text-align: center;
+        gap: 25rem;
+        color: black;
+        padding: 10px 70px 10px 110px;  
+        text-decoration: none;
+        font-size: 17px;
+        
+        margin: 0 auto;
+        /* padding: 10px; */
+        width: 900px;
+
+}
+
+/* #a11{
+  
+
+        border: #002B22 solid 2px;
+        margin: 0 auto;
+        padding: 20px;
+        width: 900px;
+} */
+
+
+      
